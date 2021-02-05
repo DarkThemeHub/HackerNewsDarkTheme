@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name	HackerNewsDarkTheme
 // @namespace	github.com/DarkThemeHub/HackerNewsDarkTheme
-// @version	1.0.1
+// @version	1.0.2
 // @description	HackerNewsDarkTheme
 // @author	DarkThemeHub
 // @homepage	https://github.com/DarkThemeHub/HackerNewsDarkTheme
@@ -16,9 +16,11 @@ if (false || (new RegExp("^https?:\/\/news\.ycombinator\.com.*")).test(document.
 		"  background-color: #222 !important; }",
 		"",
 		"body {",
-		"  color: white; }",
+		"  color: white;",
+		"  background: transparent !important; }",
 		"",
-		"#hnmain {",
+		"#hnmain,",
+		"td[bgcolor=\"#fafaf0\"] {",
 		"  background: #25272a !important; }",
 		"",
 		"a,",
@@ -29,14 +31,16 @@ if (false || (new RegExp("^https?:\/\/news\.ycombinator\.com.*")).test(document.
 		".pagetop a,",
 		".pagetop a:visited,",
 		".commtext,",
-		".default {",
+		".default,",
+		"b {",
 		"  color: white !important; }",
 		"",
 		".comhead,",
 		".age a,",
 		".togg,",
 		".subtext,",
-		".subtext a:link {",
+		".subtext a:link,",
+		"td {",
 		"  color: #bbb !important; }",
 		"",
 		".hnuser {",
@@ -46,7 +50,8 @@ if (false || (new RegExp("^https?:\/\/news\.ycombinator\.com.*")).test(document.
 		"a:visited {",
 		"  color: #b5b5b5 !important; }",
 		"",
-		"textarea {",
+		"textarea,",
+		"input[type=\"text\"] {",
 		"  background: #222 !important;",
 		"  color: white !important;",
 		"  border: 1px solid #444 !important; }",
@@ -55,6 +60,9 @@ if (false || (new RegExp("^https?:\/\/news\.ycombinator\.com.*")).test(document.
 		"  color: white !important;",
 		"  background-color: #333 !important;",
 		"  border: 1px solid #444 !important; }",
+		"",
+		"span[id^=\"unv\"] a[id^=\"un\"] {",
+		"  color: #ff6600 !important; }",
 
 	].join("\n");
 if (typeof GM_addStyle != "undefined") {

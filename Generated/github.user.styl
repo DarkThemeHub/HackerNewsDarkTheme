@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         HackerNewsDarkTheme
 @namespace    github.com/DarkThemeHub/HackerNewsDarkTheme
-@version      1.0.1
+@version      1.0.2
 @description  HackerNewsDarkTheme
 @author       DarkThemeHub
 @homepageURL  https://github.com/DarkThemeHub/HackerNewsDarkTheme
@@ -14,9 +14,11 @@ html {
   background-color: #222 !important; }
 
 body {
-  color: white; }
+  color: white;
+  background: transparent !important; }
 
-#hnmain {
+#hnmain,
+td[bgcolor="#fafaf0"] {
   background: #25272a !important; }
 
 a,
@@ -27,14 +29,16 @@ a,
 .pagetop a,
 .pagetop a:visited,
 .commtext,
-.default {
+.default,
+b {
   color: white !important; }
 
 .comhead,
 .age a,
 .togg,
 .subtext,
-.subtext a:link {
+.subtext a:link,
+td {
   color: #bbb !important; }
 
 .hnuser {
@@ -44,7 +48,8 @@ a,
 a:visited {
   color: #b5b5b5 !important; }
 
-textarea {
+textarea,
+input[type="text"] {
   background: #222 !important;
   color: white !important;
   border: 1px solid #444 !important; }
@@ -53,5 +58,8 @@ input[type="submit"] {
   color: white !important;
   background-color: #333 !important;
   border: 1px solid #444 !important; }
+
+span[id^="unv"] a[id^="un"] {
+  color: #ff6600 !important; }
 
 }
