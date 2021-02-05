@@ -10,7 +10,7 @@
 // @run-at	document-start
 // ==/UserScript==
 (function() {var css = "";
-if (false || (new RegExp("")).test(document.location.href))
+if (false || (new RegExp("/^https?:\/\/news.ycombinator.com*/")).test(document.location.href))
 	css += [
 		"html {",
 		"  background-color: #222 !important; }",
