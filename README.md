@@ -4,16 +4,6 @@
 
 # HackerNewsDarkTheme
 
-Show your support and hit that Star :P
-
-[Join the discord](https://discord.gg/pSs9YYn) to stay up to date with releases and submit other suggestions
-
-[How to Contribute](https://github.com/DarkThemeHub/<REPLACE-WITH-REPO-NAME>/blob/master/CONTRIBUTING.md)
-
-[Regex Test](REPLACE-WITH-REGEX-TEST-LINK)
-
-<hr>
-
 Support this theme by hitting that :star: and showing your friends :P
 
 [Join the discord](https://discord.gg/pSs9YYn) to stay up to date with releases and submit other suggestions
