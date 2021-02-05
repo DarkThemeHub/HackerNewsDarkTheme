@@ -1,0 +1,36 @@
+name: GenerateStylusTestFile
+
+on: [pull_request]
+  
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Node
+      uses: actions/setup-node@v1
+      with:
+        node-version: 12.x
+    - run: npm install
+    - run: npm run scss
+    - name: Set up Python
+      uses: actions/setup-python@v1
+      with: 
+        python-version: 3.7
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+    - name: Generate test style
+      run: |
+        python Scripts/GenerateStylusTestFile.py
+    - name: Commit files
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add .
+        git commit -m "Generate Test Style Files" -a || echo "Nothing to update"
+    - name: Push changes
+      uses: ad-m/github-push-action@v0.4.0
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: ${{ github.head_ref }}
