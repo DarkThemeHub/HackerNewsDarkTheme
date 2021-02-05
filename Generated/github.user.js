@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name	HackerNewsDarkTheme
 // @namespace	github.com/DarkThemeHub/HackerNewsDarkTheme
-// @version	1.0.0
+// @version	1.0.1
 // @description	HackerNewsDarkTheme
 // @author	DarkThemeHub
 // @homepage	https://github.com/DarkThemeHub/HackerNewsDarkTheme
@@ -10,7 +10,7 @@
 // @run-at	document-start
 // ==/UserScript==
 (function() {var css = "";
-if (false || (new RegExp("/^https?:\/\/news.ycombinator.com*/")).test(document.location.href))
+if (false || (new RegExp("^https?:\/\/news\.ycombinator\.com.*")).test(document.location.href))
 	css += [
 		"html {",
 		"  background-color: #222 !important; }",
