@@ -8,7 +8,7 @@ Support this theme by hitting that :star: and showing your friends :P
 
 [Join the discord](https://discord.gg/pSs9YYn) to stay up to date with releases and submit other suggestions
 
-[How to Contribute](https://github.com/DarkThemeHub/GithubDarkTheme/blob/master/CONTRIBUTING.md)
+[How to Contribute](https://github.com/DarkThemeHub/HackerNewsDarkTheme/blob/master/CONTRIBUTING.md)
 
 <hr>
 
