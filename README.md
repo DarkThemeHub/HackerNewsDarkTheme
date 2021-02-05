@@ -10,6 +10,7 @@ Support this theme by hitting that :star: and showing your friends :P
 
 [How to Contribute](https://github.com/DarkThemeHub/HackerNewsDarkTheme/blob/master/CONTRIBUTING.md)
 
+[Regex Test](https://regex101.com/r/4MRRQv/1)
 <hr>
 
 ## Install the theme
@@ -44,6 +45,8 @@ Requirements:
 
 <hr>
 <table><tr><td>
-<INSERT-IMAGE-HERE>
+<img src="https://i.gyazo.com/d73845c6ee05a2ec8d95789d6abad61a.png" />
+ 
+<img src="https://i.gyazo.com/73d7b72246a05fab035db7e5c954b592.png" />
 </td></tr></table>
 <hr>
