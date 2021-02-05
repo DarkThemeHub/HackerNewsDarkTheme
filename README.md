@@ -12,10 +12,6 @@ Support this theme by hitting that :star: and showing your friends :P
 
 [Regex Test](https://regex101.com/r/sEZPE5/9)
 
-#### Supported third party extensions status:
-
-* ZenHub *Partialy
-
 <hr>
 
 ## Install the theme
