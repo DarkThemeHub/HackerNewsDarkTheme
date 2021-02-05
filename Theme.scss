@@ -1,3 +1,55 @@
+@import "Variables";
+
+$HackerNews-Orange: #ff6600;
+
 html {
-    background-color: #25272a !important;
+    background-color: $BackgroundColor-1 !important;
+}
+
+body {
+    color: white;
+}
+
+#hnmain {
+    background: $BackgroundColor-3 !important;
+}
+
+a,
+.title a,
+.comment a {
+    color: $LinkColor !important;
+}
+
+.pagetop a,
+.pagetop a:visited,
+.commtext,
+.default {
+    color: white !important;
+}
+
+.comhead,
+.age a,
+.togg,
+.subtext,
+.subtext a:link {
+    color: $SecondaryText !important;
+}
+
+.hnuser {
+    color: $HackerNews-Orange !important;
+}
+
+.title a:visited,
+a:visited {
+    color: $LinkColor-Visited !important;
+}
+
+textarea {
+    background: $BackgroundColor-1 !important;
+    color: white !important;
+    border: 1px solid #444 !important;
+}
+
+input[type="submit"] {
+    @include PrimaryButton;
 }

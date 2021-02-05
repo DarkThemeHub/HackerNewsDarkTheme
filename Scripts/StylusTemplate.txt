@@ -1,12 +1,12 @@
 /* ==UserStyle==
 @name         <ThemeName>
-@namespace    github.com/DarkThemeHub/GithubDarkTheme
+@namespace    github.com/DarkThemeHub/<ThemeName>
 @version      <Version>
-@description  Dark theme for github.
+@description  <ThemeName>
 @author       DarkThemeHub
-@homepageURL  https://github.com/DarkThemeHub/GithubDarkTheme
-@supportURL   https://github.com/DarkThemeHub/GithubDarkTheme/issues
-@updateURL    https://raw.githubusercontent.com/DarkThemeHub/GithubDarkTheme/master/Generated/github.user.styl
+@homepageURL  https://github.com/DarkThemeHub/<ThemeName>
+@supportURL   https://github.com/DarkThemeHub/<ThemeName>/issues
+@updateURL    https://raw.githubusercontent.com/DarkThemeHub/<ThemeName>/master/Generated/github.user.styl
 ==/UserStyle== */
 
 @-moz-document regexp("<Url_Regex>") {
